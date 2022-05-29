@@ -1,6 +1,6 @@
-name: flutter_clean
+name: flutter_cleaner
 description: help clean all of Flutter and Dart projects.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/fluttercandies/flutter_clean
 
 environment:

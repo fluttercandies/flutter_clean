@@ -2,7 +2,7 @@ help clean all of Flutter and Dart projects.
 
 * activate
 
-run  `dart pub global activate flutter_clean` command
+run  `dart pub global activate flutter_cleaner` command
 
 * usage
 
