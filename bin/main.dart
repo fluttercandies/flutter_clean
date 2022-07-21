@@ -18,7 +18,11 @@ void clean(Directory directory) {
   }
   for (FileSystemEntity child in directory.listSync()) {
     FileSystemEntityType type = FileSystemEntity.typeSync(child.path);
-    if (type == FileSystemEntityType.directory) {
+    String name = basename(directory.path);
+    if (type == FileSystemEntityType.directory &&
+        !name.startsWith('.') &&
+        name != 'ios' &&
+        name != 'android') {
       clean(Directory(child.path));
     }
   }

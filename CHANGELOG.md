@@ -1,3 +1,7 @@
+## 1.0.3
+
+- skip folder '.' 'ios' and 'android'
+
 ## 1.0.2
 
 - Update readme.
